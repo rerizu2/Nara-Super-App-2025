@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3年2組専用ページ</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #f44336;
+            color: white;
+        }
+        header h1 {
+            margin: 0;
+        }
+        header p {
+            margin: 5px 0;
+        }
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        select {
+            padding: 5px;
+            margin-top: 10px;
+            font-size: 16px;
+        }
+        a {
+            text-decoration: none;
+            color: #2196f3;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        img {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+        }
+
+        /* ナビゲーションメニュー */
+nav {
+    background-color: #f44336;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #4CAF50;
+}
+
+        .rounded-image {
+      width: 300px; /* 任意の幅 */
+      height: auto; /* アスペクト比を維持 */
+      border-radius: 15px; /* 丸みの半径 */
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>3年2組専用ホームページ</h1>
+        <p>こちらは3年2組専用のホームページです。</p>
+    </header>
+       <h1>↓奈良スーパーアプリURL（リンク）↓</h1>
+       <p></p>
+    <footer style="text-align: center; padding: 20px; background: #333; color: white;">
+        &copy; 2025 3年2組ページ
+    </footer>
+</body>
+</html>
