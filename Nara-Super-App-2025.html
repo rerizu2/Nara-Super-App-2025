@@ -78,6 +78,22 @@
             height: auto;
             border-radius: 15px;
         }
+        dialog {
+            transition:
+                opacity 1s,
+                display 1s allow-discrete;
+            opacity: 0;
+            border: none;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+        dialog[open] {
+            opacity: 1;
+        }
+        dialog::backdrop {
+            background: rgba(0, 0, 0, 0.5);
+        }
     </style>
 </head>
 <body>
@@ -87,6 +103,12 @@
     </header>
     <main>
         <h1>奈良スーパーアプリ</h1>
+        <button onclick="document.getElementById('modal').showModal();">詳細を見る</button>
+        <dialog id="modal">
+            <h2>奈良スーパーアプリについて</h2>
+            <p>奈良スーパーアプリは、奈良県の行政サービスを便利に利用できるアプリです。</p>
+            <button onclick="document.getElementById('modal').close();">閉じる</button>
+        </dialog>
         <a href="https://nsa.pref.nara.jp/sdt/">
             <img src="奈良スーパーアプリ.png" alt="奈良スーパーアプリ画像" width="450">
         </a>
